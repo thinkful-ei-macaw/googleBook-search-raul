@@ -2,12 +2,13 @@ import React from 'react';
 import './App.css';
 import Header from './Components/Header';
 import Form from './Components/Form';
-
+import Store from './Components/Store';
 
 
 class App extends React.Component {
-
-
+  state = {
+    books: []
+  };
 
 
 
@@ -16,6 +17,7 @@ class App extends React.Component {
       <div className='App'>
         <Header />
         <Form />
+        <Store />
       </div>
     );
   }

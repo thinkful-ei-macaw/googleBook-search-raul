@@ -47,3 +47,19 @@ h1 {
   text-align: center;
   align-content: center;
 }
+
+.searchFilter {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+}
+
+input, button {
+  font-size: 15px;
+  padding: 2px;
+}
+
+select {
+  font-size: 15px;
+  padding: 2px;
+}
