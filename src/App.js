@@ -1,17 +1,24 @@
-import React, { Component } from 'react';
-import Form from 'form';
-import Api from 'Api';
+import React from 'react';
+import './App.css';
+import Header from './Components/Header';
 
 
-class App extends Component {
-  state = {
 
+class App extends React.Component {
+
+
+
+
+
+  render() {
+    return (
+      <div className='App'>
+        <Header />
+      </div>
+    );
   }
-}
 
 
-
-render() {
 
 }
 
